@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function Counter() {
+const Counter = () => {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -19,7 +19,7 @@ function Counter() {
         Click me
       </button>
     </div>
-  );
+  )
 }
 
 export default Counter
